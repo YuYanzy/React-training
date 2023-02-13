@@ -1,5 +1,5 @@
 
-const URL = "https://thin-aspiring-bison.glitch.me/events";
+const URL = "https://nutritious-curved-nose.glitch.me/events";
 
 export const getData = () => {
     return fetch(URL).then((res) => res.json());
